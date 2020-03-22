@@ -1,6 +1,8 @@
 // https://markus.oberlehner.net/blog/using-the-google-maps-api-with-vue/
 
-const API_KEY = "";
+var Gkey = require("../../keys").Gkey;
+
+const API_KEY = Gkey;
 const CALLBACK_NAME = "gmapsCallback";
 
 let initialized = !!window.google;
